@@ -8,7 +8,10 @@
 }
 
 body {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+
 }
 
 .list {
@@ -76,22 +79,33 @@ body {
 
 /* BUTTON */
 
+.main-section-button {
+    background-color: var(--title-color);
+}
+
 .section-button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     display: flex;
     letter-spacing: 0.04em;
     color: var(--hero-color);
     cursor: pointer;
+    background-color: var(--logo-color);
+}
+
+.section-button:hover,
+.section-button:focus {
+    color: var(--about-color);
 }
 
 .section-button-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07px;
+    line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--hero-color);
 }
