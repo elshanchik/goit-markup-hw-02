@@ -7,14 +7,10 @@
     --footer-text-color: #F4F4FD;
 }
 
-align-items
-
-
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-
+    color: var(--iten-color);
+    background-color: var(--hero-color);
 }
 
 .list {
