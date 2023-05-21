@@ -96,7 +96,10 @@ body {
     background-color: var(--logo-color);
 }
 
-.section-button:hover,
+.section-button:hover {
+    color: var(--about-color);
+}
+
 .section-button:focus {
     color: var(--about-color);
 }
