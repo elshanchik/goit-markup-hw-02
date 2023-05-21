@@ -7,6 +7,9 @@
     --footer-text-color: #F4F4FD;
 }
 
+align-items
+
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -101,12 +104,9 @@ body {
     background-color: var(--logo-color);
 }
 
-.section-button:hover {
-    color: var(--about-color);
-}
-
+.section-button:hover, 
 .section-button:focus {
-    color: var(--about-color);
+    background-color: var(--about-color);
 }
 
 .section-button-text {
@@ -194,7 +194,6 @@ body {
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--logo-color);
@@ -206,7 +205,6 @@ body {
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--footer-text-color);
@@ -229,7 +227,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
@@ -241,7 +238,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
@@ -320,10 +316,10 @@ body {
 }
 
 .row-text {
+    color: var(--iten-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em; 
-    var(--iten-color) 
 }
 
 /* FOOTER */
@@ -338,7 +334,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
